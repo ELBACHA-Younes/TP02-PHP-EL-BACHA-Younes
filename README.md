@@ -19,3 +19,13 @@ EX 4
 6.
 avec echo false, rien n'est affiché car PHP fais la conversion du boolean 0 a un string vide et l'affiche, en 
 avec var_dump(false), PHP affiche bool(false).
+
+EX 5
+5.
+'-1'	donne Note invalide
+'9'	  donne Non validé
+'10'	donne Passable
+'12'	donne Assez bien
+'14'	donne Bien
+'16'	donne Très bien
+'21'	donne Note invalide
