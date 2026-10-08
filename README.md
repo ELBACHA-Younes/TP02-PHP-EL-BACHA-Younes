@@ -29,3 +29,13 @@ EX 5
 '14'	donne Bien
 '16'	donne Très bien
 '21'	donne Note invalide
+
+
+
+EX 10
+
+Avec GET, les données sont visibles dans l'URL après le caractère ?.
+Les paramètres sont séparés par le caractère &.
+
+par contre avec POST, les données sont envoyées dans le corps de la requête et
+n'apparaissent pas dans l'URL.
