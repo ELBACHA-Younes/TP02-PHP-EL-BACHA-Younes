@@ -15,3 +15,7 @@ Les majuscules et les minuscules sont donc distinguées.
 `$1a` : invalide
 `$a1` : valide
 
+EX 4
+6.
+avec echo false, rien n'est affiché car PHP fais la conversion du boolean 0 a un string vide et l'affiche, en 
+avec var_dump(false), PHP affiche bool(false).
